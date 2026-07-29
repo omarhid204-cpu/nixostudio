@@ -395,10 +395,10 @@
     "derechos": "© 2026 NIXO STUDIO. Todos los derechos reservados."
   },
   "marca": {
-    "nombre": "NIXO STUDIO",
-    "logo": "/images/logo1.png",
+    "nombre": "NIXO",
+    "logo": "/images/logo-nixo.png",
     "logo_ancho": 132,
-    "mostrar_nombre_junto_logo": true
+    "mostrar_nombre_junto_logo": false
   },
   "seo": {
     "titulo": "NIXO STUDIO — Diseño y desarrollo web premium",
