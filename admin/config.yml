@@ -1,0 +1,284 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: es
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "contenido"
+    label: "Contenido del sitio"
+    files:
+      - name: "home"
+        label: "Página principal"
+        file: "content.json"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Título de la pestaña", name: "titulo", widget: "string" }
+              - { label: "Descripción (Google/redes)", name: "descripcion", widget: "text" }
+              - { label: "Imagen para compartir", name: "imagen_compartir", widget: "image", required: false }
+
+          - label: "Marca"
+            name: "marca"
+            widget: "object"
+            fields:
+              - { label: "Nombre", name: "nombre", widget: "string" }
+              - { label: "Logo (imagen)", name: "logo", widget: "image", required: false, hint: "Súbelo aquí. Si lo dejas vacío se muestra solo el nombre." }
+              - { label: "Ancho del logo (px)", name: "logo_ancho", widget: "number", default: 130, value_type: "int", min: 40, max: 400, hint: "Ajusta el tamaño del logo en píxeles." }
+              - { label: "Mostrar el nombre junto al logo", name: "mostrar_nombre_junto_logo", widget: "boolean", default: true }
+
+          - label: "WhatsApp"
+            name: "whatsapp"
+            widget: "object"
+            fields:
+              - { label: "Número (con lada, sin signos)", name: "numero", widget: "string", hint: "Ejemplo México: 5215500000000" }
+              - { label: "Mensaje predeterminado", name: "mensaje_default", widget: "text" }
+
+          - label: "Contacto"
+            name: "contacto"
+            widget: "object"
+            fields:
+              - { label: "Correo", name: "correo", widget: "string", required: false }
+              - { label: "Teléfono", name: "telefono", widget: "string", required: false }
+              - label: "Redes sociales"
+                name: "redes"
+                widget: "object"
+                fields:
+                  - { label: "Instagram", name: "instagram", widget: "string", required: false }
+                  - { label: "Facebook", name: "facebook", widget: "string", required: false }
+                  - { label: "LinkedIn", name: "linkedin", widget: "string", required: false }
+                  - { label: "Behance", name: "behance", widget: "string", required: false }
+
+          - label: "Menú de navegación"
+            name: "nav"
+            widget: "object"
+            fields:
+              - label: "Enlaces"
+                name: "links"
+                widget: "list"
+                label_singular: "Enlace"
+                fields:
+                  - { label: "Texto", name: "texto", widget: "string" }
+                  - { label: "Página (archivo)", name: "url", widget: "string", hint: "Ej: #inicio, #servicios, #portafolio, #contacto" }
+              - { label: "Texto del botón", name: "cta_texto", widget: "string" }
+              - { label: "Mensaje del botón", name: "cta_mensaje", widget: "text" }
+
+          - label: "Hero (portada)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string", required: false }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "text" }
+              - { label: "Botón principal — texto", name: "cta_primario_texto", widget: "string" }
+              - { label: "Botón principal — mensaje WhatsApp", name: "cta_primario_mensaje", widget: "text" }
+              - { label: "Botón secundario — texto", name: "cta_secundario_texto", widget: "string" }
+              - { label: "Botón secundario — enlace", name: "cta_secundario_url", widget: "string", default: "#portafolio" }
+              - { label: "Imagen de fondo", name: "imagen_fondo", widget: "image", required: false }
+
+          - label: "Estadísticas del hero"
+            name: "trust"
+            widget: "object"
+            fields:
+              - { label: "Título (interno)", name: "titulo", widget: "string", required: false }
+              - label: "Estadísticas"
+                name: "stats"
+                widget: "list"
+                label_singular: "Estadística"
+                fields:
+                  - { label: "Número", name: "numero", widget: "string" }
+                  - { label: "Sufijo", name: "sufijo", widget: "string", required: false, hint: "Ej: +, %, s, días" }
+                  - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+
+          - label: "Por qué NIXO"
+            name: "por_que"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string", required: false }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "text", required: false }
+              - label: "Beneficios"
+                name: "beneficios"
+                widget: "list"
+                label_singular: "Beneficio"
+                fields:
+                  - label: "Ícono"
+                    name: "icono"
+                    widget: "select"
+                    options: ["layout", "smartphone", "zap", "search", "sliders", "trending-up", "shield", "target"]
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Texto", name: "texto", widget: "text" }
+
+          - label: "Servicios"
+            name: "servicios"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string", required: false }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "text", required: false }
+              - label: "Lista de servicios"
+                name: "items"
+                widget: "list"
+                label_singular: "Servicio"
+                fields:
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Texto", name: "texto", widget: "text" }
+
+          - label: "Proceso"
+            name: "proceso"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string", required: false }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - label: "Pasos"
+                name: "pasos"
+                widget: "list"
+                label_singular: "Paso"
+                fields:
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Texto", name: "texto", widget: "text" }
+
+          - label: "Tecnología"
+            name: "tecnologia"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string", required: false }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "text", required: false }
+              - label: "Beneficios"
+                name: "beneficios"
+                widget: "list"
+                label_singular: "Beneficio"
+                fields:
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Texto", name: "texto", widget: "text" }
+
+          - label: "Portafolio"
+            name: "portafolio"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string", required: false }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "text", required: false }
+              - label: "Categorías (filtros)"
+                name: "categorias"
+                widget: "list"
+                label_singular: "Categoría"
+                field: { label: "Categoría", name: "categoria", widget: "string" }
+              - label: "Proyectos"
+                name: "proyectos"
+                widget: "list"
+                label_singular: "Proyecto"
+                summary: "{{fields.nombre}}"
+                fields:
+                  - { label: "ID (sin espacios)", name: "id", widget: "string", hint: "Identificador único. Ej: hotel-vista-real" }
+                  - { label: "Nombre", name: "nombre", widget: "string" }
+                  - { label: "Industria", name: "industria", widget: "string" }
+                  - label: "Categoría (para el filtro)"
+                    name: "categoria"
+                    widget: "select"
+                    options: ["Hoteles", "Eventos", "Restaurantes", "Automotriz", "Corporativo", "Salud", "Arquitectura", "Inmobiliaria", "Ecommerce"]
+                  - label: "Tecnologías / etiquetas"
+                    name: "tecnologias"
+                    widget: "list"
+                    label_singular: "Etiqueta"
+                    field: { label: "Etiqueta", name: "etiqueta", widget: "string" }
+                  - { label: "Resumen (aparece al pasar el mouse)", name: "resumen", widget: "text" }
+                  - { label: "Enlace externo (opcional)", name: "url_externa", widget: "string", required: false }
+                  - label: "Imágenes de la galería"
+                    name: "imagenes"
+                    widget: "list"
+                    label_singular: "Imagen"
+                    field: { label: "Imagen", name: "imagen", widget: "image" }
+                  - { label: "Objetivo", name: "objetivo", widget: "text", required: false }
+                  - { label: "Problema", name: "problema", widget: "text", required: false }
+                  - { label: "Solución", name: "solucion", widget: "text", required: false }
+                  - { label: "Resultado", name: "resultado", widget: "text", required: false }
+
+          - label: "Demos interactivos"
+            name: "demos"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string", required: false }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "text", required: false }
+              - label: "Demos"
+                name: "items"
+                widget: "list"
+                label_singular: "Demo"
+                fields:
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Texto", name: "texto", widget: "text" }
+                  - { label: "Texto del botón", name: "boton", widget: "string" }
+                  - { label: "Enlace", name: "url", widget: "string", required: false }
+
+          - label: "Resultados"
+            name: "resultados"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string", required: false }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - label: "Números"
+                name: "stats"
+                widget: "list"
+                label_singular: "Número"
+                fields:
+                  - { label: "Número", name: "numero", widget: "string" }
+                  - { label: "Sufijo", name: "sufijo", widget: "string", required: false }
+                  - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+
+          - label: "Testimonios"
+            name: "testimonios"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string", required: false }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - label: "Lista de testimonios"
+                name: "items"
+                widget: "list"
+                label_singular: "Testimonio"
+                summary: "{{fields.nombre}}"
+                fields:
+                  - { label: "Foto", name: "foto", widget: "image", required: false }
+                  - { label: "Nombre", name: "nombre", widget: "string" }
+                  - { label: "Empresa", name: "empresa", widget: "string" }
+                  - { label: "Comentario", name: "comentario", widget: "text" }
+                  - { label: "Calificación (1-5)", name: "calificacion", widget: "number", default: 5, value_type: "int", min: 1, max: 5 }
+
+          - label: "Preguntas frecuentes"
+            name: "faq"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta superior", name: "eyebrow", widget: "string", required: false }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - label: "Preguntas"
+                name: "items"
+                widget: "list"
+                label_singular: "Pregunta"
+                summary: "{{fields.pregunta}}"
+                fields:
+                  - { label: "Pregunta", name: "pregunta", widget: "string" }
+                  - { label: "Respuesta", name: "respuesta", widget: "text" }
+
+          - label: "Llamado final (CTA)"
+            name: "cta_final"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "text" }
+              - { label: "Texto del botón", name: "boton", widget: "string" }
+              - { label: "Mensaje WhatsApp", name: "mensaje", widget: "text" }
+              - { label: "Imagen de fondo", name: "imagen_fondo", widget: "image", required: false }
+
+          - label: "Pie de página"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Descripción", name: "descripcion", widget: "text" }
+              - { label: "Texto aviso de privacidad", name: "aviso_privacidad", widget: "string", required: false }
+              - { label: "Enlace aviso de privacidad", name: "aviso_privacidad_url", widget: "string", required: false }
+              - { label: "Derechos (copyright)", name: "derechos", widget: "string" }
