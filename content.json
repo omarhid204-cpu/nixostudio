@@ -1,29 +1,4 @@
 {
-  "seo": {
-    "titulo": "NIXO STUDIO — Diseño y desarrollo web premium",
-    "descripcion": "Creamos experiencias digitales modernas, rápidas y personalizadas para empresas que buscan transmitir confianza y generar más clientes.",
-    "imagen_compartir": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1200&q=80"
-  },
-  "marca": {
-    "nombre": "NIXO STUDIO",
-    "logo": "",
-    "logo_ancho": 132,
-    "mostrar_nombre_junto_logo": true
-  },
-  "whatsapp": {
-    "numero": "5215500000000",
-    "mensaje_default": "Hola NIXO STUDIO, quiero información sobre una página web para mi empresa."
-  },
-  "contacto": {
-    "correo": "hola@nixostudio.com",
-    "telefono": "+52 55 0000 0000",
-    "redes": {
-      "instagram": "https://instagram.com/",
-      "facebook": "https://facebook.com/",
-      "linkedin": "https://linkedin.com/",
-      "behance": ""
-    }
-  },
   "nav": {
     "links": [
       {
@@ -46,45 +21,224 @@
     "cta_texto": "Cotizar por WhatsApp",
     "cta_mensaje": "Hola NIXO STUDIO, me gustaría cotizar una página web."
   },
-  "hero": {
-    "eyebrow": "Agencia digital · México",
-    "titulo": "Creamos páginas web que hacen crecer negocios.",
-    "subtitulo": "Diseñamos experiencias digitales modernas, rápidas y totalmente personalizadas para empresas que buscan transmitir confianza y generar más clientes.",
-    "cta_primario_texto": "Cotizar por WhatsApp",
-    "cta_primario_mensaje": "Hola NIXO STUDIO, vi su sitio y quiero cotizar un proyecto.",
-    "cta_secundario_texto": "Ver proyectos",
-    "cta_secundario_url": "#portafolio",
-    "imagen_fondo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80"
-  },
-  "trust": {
-    "titulo": "Números que respaldan cada proyecto",
+  "resultados": {
+    "eyebrow": "Resultados",
+    "titulo": "El impacto de un buen sitio",
     "stats": [
-      {
-        "numero": "40",
-        "sufijo": "+",
-        "etiqueta": "Empresas que confiaron en nosotros"
-      },
       {
         "numero": "120",
         "sufijo": "+",
-        "etiqueta": "Sitios publicados"
-      },
-      {
-        "numero": "10",
-        "sufijo": " días",
-        "etiqueta": "Tiempo promedio de entrega"
-      },
-      {
-        "numero": "2",
-        "sufijo": "s",
-        "etiqueta": "Tiempo de carga promedio"
+        "etiqueta": "Proyectos entregados"
       },
       {
         "numero": "98",
         "sufijo": "%",
-        "etiqueta": "Satisfacción del cliente"
+        "etiqueta": "Clientes satisfechos"
+      },
+      {
+        "numero": "5",
+        "sufijo": "★",
+        "etiqueta": "Calificación promedio"
+      },
+      {
+        "numero": "2",
+        "sufijo": "s",
+        "etiqueta": "Carga por debajo de"
       }
     ]
+  },
+  "cta_final": {
+    "titulo": "Tu empresa merece una página web al nivel de tu negocio.",
+    "subtitulo": "Construyamos juntos una presencia digital que genere confianza desde el primer segundo.",
+    "boton": "Hablar por WhatsApp",
+    "mensaje": "Hola NIXO STUDIO, quiero llevar mi presencia digital al siguiente nivel.",
+    "imagen_fondo": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80"
+  },
+  "portafolio": {
+    "eyebrow": "Portafolio",
+    "titulo": "Proyectos que hablan por nosotros",
+    "subtitulo": "Una selección de sitios creados para empresas reales.",
+    "categorias": [
+      "Todos",
+      "Hoteles",
+      "Eventos",
+      "Restaurantes",
+      "Automotriz",
+      "Corporativo",
+      "Salud",
+      "Arquitectura",
+      "Inmobiliaria",
+      "Ecommerce"
+    ],
+    "proyectos": [
+      {
+        "resumen": "Un salón de eventos con reservas por WhatsApp y galería inmersiva.",
+        "imagenes": [
+          "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "problema": "El salón dependía de recomendaciones y no tenía presencia digital.",
+        "nombre": "Hacienda San Andrés",
+        "solucion": "Un sitio visual con galería, paquetes y contacto directo por WhatsApp.",
+        "tecnologias": [
+          "Diseño a medida",
+          "CMS editable",
+          "Optimización móvil"
+        ],
+        "resultado": "Más solicitudes de cotización y una imagen a la altura del lugar.",
+        "url_externa": "",
+        "industria": "Eventos",
+        "categoria": "Eventos",
+        "id": "hacienda-eventos",
+        "objetivo": "Llenar el calendario de eventos con reservas directas."
+      },
+      {
+        "resumen": "Clonación de llaves y mecatrónica automotriz en CDMX.",
+        "imagenes": [
+          "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "problema": "Un servicio especializado sin forma clara de contactar.",
+        "nombre": "KeyLab",
+        "solucion": "Landing directa con servicios, cobertura y botón de WhatsApp.",
+        "tecnologias": [
+          "Landing de conversión",
+          "CMS editable",
+          "SEO local"
+        ],
+        "resultado": "Contacto inmediato y más citas agendadas.",
+        "url_externa": "",
+        "industria": "Automotriz",
+        "categoria": "Automotriz",
+        "id": "keylab-automotriz",
+        "objetivo": "Captar clientes que buscan servicio de llaves en su zona."
+      },
+      {
+        "resumen": "Un hotel boutique con una presencia digital de lujo.",
+        "imagenes": [
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "problema": "La web anterior no reflejaba el nivel del hotel.",
+        "nombre": "Hotel Vista Real",
+        "solucion": "Un sitio inmersivo con fotografía a pantalla completa.",
+        "tecnologias": [
+          "Diseño a medida",
+          "Galería",
+          "Reservas"
+        ],
+        "resultado": "Más reservas directas y una marca percibida como premium.",
+        "url_externa": "",
+        "industria": "Hospitalidad",
+        "categoria": "Hoteles",
+        "id": "hotel-premium",
+        "objetivo": "Transmitir experiencia y aumentar reservas directas."
+      }
+    ]
+  },
+  "tecnologia": {
+    "eyebrow": "Tecnología",
+    "titulo": "Por qué nuestras páginas rinden mejor",
+    "subtitulo": "Menos promesas, más resultados. Esto es lo que obtienes.",
+    "beneficios": [
+      {
+        "titulo": "Diseño moderno",
+        "texto": "Estética actual que envejece bien."
+      },
+      {
+        "titulo": "Alto rendimiento",
+        "texto": "Cargas rápidas que reducen el abandono."
+      },
+      {
+        "titulo": "Optimización para Google",
+        "texto": "Bases técnicas para posicionar mejor."
+      },
+      {
+        "titulo": "Adaptación a celulares",
+        "texto": "Experiencia impecable en cualquier pantalla."
+      },
+      {
+        "titulo": "Administración sencilla",
+        "texto": "Editas tu contenido cuando quieras."
+      },
+      {
+        "titulo": "Seguridad",
+        "texto": "Infraestructura estable y protegida."
+      },
+      {
+        "titulo": "Escalabilidad",
+        "texto": "Tu sitio crece al ritmo de tu negocio."
+      }
+    ]
+  },
+  "proceso": {
+    "eyebrow": "Proceso",
+    "titulo": "Un método claro, de la idea a la publicación",
+    "pasos": [
+      {
+        "titulo": "Conocemos tu negocio",
+        "texto": "Entendemos qué vendes, a quién y qué te hace distinto."
+      },
+      {
+        "titulo": "Diseñamos la estrategia",
+        "texto": "Definimos estructura, mensaje y objetivo de cada sección."
+      },
+      {
+        "titulo": "Creamos el diseño",
+        "texto": "Damos forma visual a tu marca con nivel premium."
+      },
+      {
+        "titulo": "Desarrollamos la página",
+        "texto": "Construimos un sitio rápido, seguro y responsive."
+      },
+      {
+        "titulo": "Publicamos",
+        "texto": "Lanzamos tu sitio y lo dejamos listo para recibir clientes."
+      },
+      {
+        "titulo": "Te enseñamos a administrarla",
+        "texto": "Aprendes a editar tu contenido sin depender de nadie."
+      }
+    ]
+  },
+  "contacto": {
+    "correo": "hola@nixostudio.com",
+    "telefono": "+52 55 0000 0000",
+    "redes": {
+      "instagram": "https://instagram.com/",
+      "facebook": "https://facebook.com/",
+      "linkedin": "https://linkedin.com/",
+      "behance": ""
+    }
+  },
+  "demos": {
+    "eyebrow": "Demos",
+    "titulo": "Explora ejemplos en vivo",
+    "subtitulo": "Navega demostraciones reales y descubre lo que podemos crear para ti.",
+    "items": [
+      {
+        "titulo": "Demo · Restaurante",
+        "texto": "Menú, reservas y ambiente.",
+        "boton": "Explorar demo",
+        "url": ""
+      },
+      {
+        "titulo": "Demo · Constructora",
+        "texto": "Proyectos y obra con autoridad.",
+        "boton": "Explorar demo",
+        "url": ""
+      },
+      {
+        "titulo": "Demo · Portafolio",
+        "texto": "Presenta tu trabajo con nivel.",
+        "boton": "Explorar demo",
+        "url": ""
+      }
+    ]
+  },
+  "whatsapp": {
+    "numero": "5215500000000",
+    "mensaje_default": "Hola NIXO STUDIO, quiero información sobre una página web para mi empresa."
   },
   "por_que": {
     "eyebrow": "Por qué NIXO",
@@ -133,6 +287,124 @@
       }
     ]
   },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "titulo": "Resolvemos tus dudas",
+    "items": [
+      {
+        "pregunta": "¿Cuánto tarda?",
+        "respuesta": "El tiempo promedio de entrega es de 10 días, según el alcance del proyecto."
+      },
+      {
+        "pregunta": "¿Puedo editar la página?",
+        "respuesta": "Sí. Te entregamos un panel para editar textos e imágenes sin tocar código."
+      },
+      {
+        "pregunta": "¿Incluye dominio?",
+        "respuesta": "Podemos gestionar tu dominio o conectar el que ya tienes."
+      },
+      {
+        "pregunta": "¿Incluye hosting?",
+        "respuesta": "Sí, tu sitio queda publicado en infraestructura rápida y segura."
+      },
+      {
+        "pregunta": "¿Aparece en Google?",
+        "respuesta": "Preparamos el sitio con bases técnicas de SEO para posicionar mejor."
+      },
+      {
+        "pregunta": "¿Puedo actualizarla después?",
+        "respuesta": "Claro. Puedes editarla tú mismo o pedirnos cambios cuando lo necesites."
+      },
+      {
+        "pregunta": "¿Hacen tiendas en línea?",
+        "respuesta": "Sí, desarrollamos catálogos y tiendas según lo que tu negocio necesite."
+      }
+    ]
+  },
+  "testimonios": {
+    "eyebrow": "Testimonios",
+    "titulo": "Lo que dicen nuestros clientes",
+    "items": [
+      {
+        "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+        "nombre": "Carlos Méndez",
+        "empresa": "Grupo Industrial MX",
+        "comentario": "El sitio elevó por completo la imagen de la empresa. Recibimos más solicitudes que nunca.",
+        "calificacion": 5
+      },
+      {
+        "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+        "nombre": "Ana Torres",
+        "empresa": "Eventos Aurora",
+        "comentario": "Profesionales de principio a fin. La página se ve espectacular y es facilísima de editar.",
+        "calificacion": 5
+      },
+      {
+        "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+        "nombre": "Luis Ramírez",
+        "empresa": "Taller RM",
+        "comentario": "Ahora los clientes nos encuentran en Google y nos escriben directo. Excelente inversión.",
+        "calificacion": 5
+      }
+    ]
+  },
+  "trust": {
+    "titulo": "Números que respaldan cada proyecto",
+    "stats": [
+      {
+        "numero": "40",
+        "sufijo": "+",
+        "etiqueta": "Empresas que confiaron en nosotros"
+      },
+      {
+        "numero": "120",
+        "sufijo": "+",
+        "etiqueta": "Sitios publicados"
+      },
+      {
+        "numero": "10",
+        "sufijo": " días",
+        "etiqueta": "Tiempo promedio de entrega"
+      },
+      {
+        "numero": "2",
+        "sufijo": "s",
+        "etiqueta": "Tiempo de carga promedio"
+      },
+      {
+        "numero": "98",
+        "sufijo": "%",
+        "etiqueta": "Satisfacción del cliente"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Agencia digital · México",
+    "titulo": "Creamos páginas web que hacen crecer negocios.",
+    "subtitulo": "Diseñamos experiencias digitales modernas, rápidas y totalmente personalizadas para empresas que buscan transmitir confianza y generar más clientes.",
+    "cta_primario_texto": "Cotizar por WhatsApp",
+    "cta_primario_mensaje": "Hola NIXO STUDIO, vi su sitio y quiero cotizar un proyecto.",
+    "cta_secundario_texto": "Ver proyectos",
+    "cta_secundario_url": "#portafolio",
+    "imagen_fondo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80"
+  },
+  "footer": {
+    "descripcion": "Creamos experiencias digitales que representan el verdadero nivel de tu empresa.",
+    "aviso_privacidad": "Aviso de privacidad",
+    "aviso_privacidad_url": "#",
+    "derechos": "© 2026 NIXO STUDIO. Todos los derechos reservados."
+  },
+  "marca": {
+    "nombre": "NIXO STUDIO",
+    "logo": "/images/logo1.png",
+    "logo_ancho": 132,
+    "mostrar_nombre_junto_logo": true
+  },
+  "seo": {
+    "titulo": "NIXO STUDIO — Diseño y desarrollo web premium",
+    "descripcion": "Creamos experiencias digitales modernas, rápidas y personalizadas para empresas que buscan transmitir confianza y generar más clientes.",
+    "imagen_compartir": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1200&q=80"
+  },
   "servicios": {
     "eyebrow": "Servicios",
     "titulo": "Soluciones digitales para cada tipo de negocio",
@@ -179,277 +451,5 @@
         "texto": "Visibilidad en tu zona y más clientes cerca de ti."
       }
     ]
-  },
-  "proceso": {
-    "eyebrow": "Proceso",
-    "titulo": "Un método claro, de la idea a la publicación",
-    "pasos": [
-      {
-        "titulo": "Conocemos tu negocio",
-        "texto": "Entendemos qué vendes, a quién y qué te hace distinto."
-      },
-      {
-        "titulo": "Diseñamos la estrategia",
-        "texto": "Definimos estructura, mensaje y objetivo de cada sección."
-      },
-      {
-        "titulo": "Creamos el diseño",
-        "texto": "Damos forma visual a tu marca con nivel premium."
-      },
-      {
-        "titulo": "Desarrollamos la página",
-        "texto": "Construimos un sitio rápido, seguro y responsive."
-      },
-      {
-        "titulo": "Publicamos",
-        "texto": "Lanzamos tu sitio y lo dejamos listo para recibir clientes."
-      },
-      {
-        "titulo": "Te enseñamos a administrarla",
-        "texto": "Aprendes a editar tu contenido sin depender de nadie."
-      }
-    ]
-  },
-  "tecnologia": {
-    "eyebrow": "Tecnología",
-    "titulo": "Por qué nuestras páginas rinden mejor",
-    "subtitulo": "Menos promesas, más resultados. Esto es lo que obtienes.",
-    "beneficios": [
-      {
-        "titulo": "Diseño moderno",
-        "texto": "Estética actual que envejece bien."
-      },
-      {
-        "titulo": "Alto rendimiento",
-        "texto": "Cargas rápidas que reducen el abandono."
-      },
-      {
-        "titulo": "Optimización para Google",
-        "texto": "Bases técnicas para posicionar mejor."
-      },
-      {
-        "titulo": "Adaptación a celulares",
-        "texto": "Experiencia impecable en cualquier pantalla."
-      },
-      {
-        "titulo": "Administración sencilla",
-        "texto": "Editas tu contenido cuando quieras."
-      },
-      {
-        "titulo": "Seguridad",
-        "texto": "Infraestructura estable y protegida."
-      },
-      {
-        "titulo": "Escalabilidad",
-        "texto": "Tu sitio crece al ritmo de tu negocio."
-      }
-    ]
-  },
-  "portafolio": {
-    "eyebrow": "Portafolio",
-    "titulo": "Proyectos que hablan por nosotros",
-    "subtitulo": "Una selección de sitios creados para empresas reales.",
-    "categorias": [
-      "Todos",
-      "Hoteles",
-      "Eventos",
-      "Restaurantes",
-      "Automotriz",
-      "Corporativo",
-      "Salud",
-      "Arquitectura",
-      "Inmobiliaria",
-      "Ecommerce"
-    ],
-    "proyectos": [
-      {
-        "id": "hacienda-eventos",
-        "nombre": "Hacienda San Andrés",
-        "industria": "Eventos",
-        "categoria": "Eventos",
-        "tecnologias": [
-          "Diseño a medida",
-          "CMS editable",
-          "Optimización móvil"
-        ],
-        "resumen": "Un salón de eventos con reservas por WhatsApp y galería inmersiva.",
-        "url_externa": "",
-        "imagenes": [
-          "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80"
-        ],
-        "objetivo": "Llenar el calendario de eventos con reservas directas.",
-        "problema": "El salón dependía de recomendaciones y no tenía presencia digital.",
-        "solucion": "Un sitio visual con galería, paquetes y contacto directo por WhatsApp.",
-        "resultado": "Más solicitudes de cotización y una imagen a la altura del lugar."
-      },
-      {
-        "id": "keylab-automotriz",
-        "nombre": "KeyLab",
-        "industria": "Automotriz",
-        "categoria": "Automotriz",
-        "tecnologias": [
-          "Landing de conversión",
-          "CMS editable",
-          "SEO local"
-        ],
-        "resumen": "Clonación de llaves y mecatrónica automotriz en CDMX.",
-        "url_externa": "",
-        "imagenes": [
-          "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80"
-        ],
-        "objetivo": "Captar clientes que buscan servicio de llaves en su zona.",
-        "problema": "Un servicio especializado sin forma clara de contactar.",
-        "solucion": "Landing directa con servicios, cobertura y botón de WhatsApp.",
-        "resultado": "Contacto inmediato y más citas agendadas."
-      },
-      {
-        "id": "hotel-premium",
-        "nombre": "Hotel Vista Real",
-        "industria": "Hospitalidad",
-        "categoria": "Hoteles",
-        "tecnologias": [
-          "Diseño a medida",
-          "Galería",
-          "Reservas"
-        ],
-        "resumen": "Un hotel boutique con una presencia digital de lujo.",
-        "url_externa": "",
-        "imagenes": [
-          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80"
-        ],
-        "objetivo": "Transmitir experiencia y aumentar reservas directas.",
-        "problema": "La web anterior no reflejaba el nivel del hotel.",
-        "solucion": "Un sitio inmersivo con fotografía a pantalla completa.",
-        "resultado": "Más reservas directas y una marca percibida como premium."
-      }
-    ]
-  },
-  "demos": {
-    "eyebrow": "Demos",
-    "titulo": "Explora ejemplos en vivo",
-    "subtitulo": "Navega demostraciones reales y descubre lo que podemos crear para ti.",
-    "items": [
-      {
-        "titulo": "Demo · Restaurante",
-        "texto": "Menú, reservas y ambiente.",
-        "boton": "Explorar demo",
-        "url": ""
-      },
-      {
-        "titulo": "Demo · Constructora",
-        "texto": "Proyectos y obra con autoridad.",
-        "boton": "Explorar demo",
-        "url": ""
-      },
-      {
-        "titulo": "Demo · Portafolio",
-        "texto": "Presenta tu trabajo con nivel.",
-        "boton": "Explorar demo",
-        "url": ""
-      }
-    ]
-  },
-  "resultados": {
-    "eyebrow": "Resultados",
-    "titulo": "El impacto de un buen sitio",
-    "stats": [
-      {
-        "numero": "120",
-        "sufijo": "+",
-        "etiqueta": "Proyectos entregados"
-      },
-      {
-        "numero": "98",
-        "sufijo": "%",
-        "etiqueta": "Clientes satisfechos"
-      },
-      {
-        "numero": "5",
-        "sufijo": "★",
-        "etiqueta": "Calificación promedio"
-      },
-      {
-        "numero": "2",
-        "sufijo": "s",
-        "etiqueta": "Carga por debajo de"
-      }
-    ]
-  },
-  "testimonios": {
-    "eyebrow": "Testimonios",
-    "titulo": "Lo que dicen nuestros clientes",
-    "items": [
-      {
-        "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
-        "nombre": "Carlos Méndez",
-        "empresa": "Grupo Industrial MX",
-        "comentario": "El sitio elevó por completo la imagen de la empresa. Recibimos más solicitudes que nunca.",
-        "calificacion": 5
-      },
-      {
-        "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
-        "nombre": "Ana Torres",
-        "empresa": "Eventos Aurora",
-        "comentario": "Profesionales de principio a fin. La página se ve espectacular y es facilísima de editar.",
-        "calificacion": 5
-      },
-      {
-        "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
-        "nombre": "Luis Ramírez",
-        "empresa": "Taller RM",
-        "comentario": "Ahora los clientes nos encuentran en Google y nos escriben directo. Excelente inversión.",
-        "calificacion": 5
-      }
-    ]
-  },
-  "faq": {
-    "eyebrow": "Preguntas frecuentes",
-    "titulo": "Resolvemos tus dudas",
-    "items": [
-      {
-        "pregunta": "¿Cuánto tarda?",
-        "respuesta": "El tiempo promedio de entrega es de 10 días, según el alcance del proyecto."
-      },
-      {
-        "pregunta": "¿Puedo editar la página?",
-        "respuesta": "Sí. Te entregamos un panel para editar textos e imágenes sin tocar código."
-      },
-      {
-        "pregunta": "¿Incluye dominio?",
-        "respuesta": "Podemos gestionar tu dominio o conectar el que ya tienes."
-      },
-      {
-        "pregunta": "¿Incluye hosting?",
-        "respuesta": "Sí, tu sitio queda publicado en infraestructura rápida y segura."
-      },
-      {
-        "pregunta": "¿Aparece en Google?",
-        "respuesta": "Preparamos el sitio con bases técnicas de SEO para posicionar mejor."
-      },
-      {
-        "pregunta": "¿Puedo actualizarla después?",
-        "respuesta": "Claro. Puedes editarla tú mismo o pedirnos cambios cuando lo necesites."
-      },
-      {
-        "pregunta": "¿Hacen tiendas en línea?",
-        "respuesta": "Sí, desarrollamos catálogos y tiendas según lo que tu negocio necesite."
-      }
-    ]
-  },
-  "cta_final": {
-    "titulo": "Tu empresa merece una página web al nivel de tu negocio.",
-    "subtitulo": "Construyamos juntos una presencia digital que genere confianza desde el primer segundo.",
-    "boton": "Hablar por WhatsApp",
-    "mensaje": "Hola NIXO STUDIO, quiero llevar mi presencia digital al siguiente nivel.",
-    "imagen_fondo": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80"
-  },
-  "footer": {
-    "descripcion": "Creamos experiencias digitales que representan el verdadero nivel de tu empresa.",
-    "aviso_privacidad": "Aviso de privacidad",
-    "aviso_privacidad_url": "#",
-    "derechos": "© 2026 NIXO STUDIO. Todos los derechos reservados."
   }
 }
