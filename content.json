@@ -202,12 +202,12 @@
     ]
   },
   "contacto": {
-    "correo": "hola@nixostudio.com",
+    "correo": "nixostudioinfo@gmail.com",
     "telefono": "+52 55 4044 4341",
     "redes": {
       "instagram": "https://instagram.com/",
-      "facebook": "https://facebook.com/",
-      "linkedin": "https://linkedin.com/",
+      "facebook": "",
+      "linkedin": "",
       "behance": ""
     }
   },
