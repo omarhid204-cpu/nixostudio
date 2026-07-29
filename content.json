@@ -86,7 +86,7 @@
           "Optimización móvil"
         ],
         "resultado": "Más solicitudes de cotización y una imagen a la altura del lugar.",
-        "url_externa": "",
+        "url_externa": "https://haciendadesanandres.com/",
         "industria": "Eventos",
         "categoria": "Eventos",
         "id": "hacienda-eventos",
@@ -131,7 +131,7 @@
         "url_externa": "",
         "industria": "Hospitalidad",
         "categoria": "Hoteles",
-        "id": "hotel-premium",
+        "id": "-premium",
         "objetivo": "Transmitir experiencia y aumentar reservas directas."
       }
     ]
