@@ -323,23 +323,23 @@
     "titulo": "Lo que dicen nuestros clientes",
     "items": [
       {
-        "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
-        "nombre": "Carlos Méndez",
-        "empresa": "Grupo Industrial MX",
+        "foto": "/images/0003bce5-d627-40b5-8201-47da4ea63a77.png",
+        "nombre": "Jesus García ",
+        "empresa": "Luxor",
         "comentario": "El sitio elevó por completo la imagen de la empresa. Recibimos más solicitudes que nunca.",
         "calificacion": 5
       },
       {
-        "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+        "foto": "/images/captura_de_pantalla_2026-04-27_a_la_s__12.22.25_a.m.-removebg-preview.png",
         "nombre": "Ana Torres",
-        "empresa": "Eventos Aurora",
+        "empresa": "Viaducto Transmisiones Online",
         "comentario": "Profesionales de principio a fin. La página se ve espectacular y es facilísima de editar.",
         "calificacion": 5
       },
       {
-        "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+        "foto": "/images/logo.png",
         "nombre": "Luis Ramírez",
-        "empresa": "Taller RM",
+        "empresa": "Hacienda de San Andres",
         "comentario": "Ahora los clientes nos encuentran en Google y nos escriben directo. Excelente inversión.",
         "calificacion": 5
       }
