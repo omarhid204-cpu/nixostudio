@@ -74,8 +74,7 @@
       {
         "resumen": "Un salón de eventos con reservas por WhatsApp y galería inmersiva.",
         "imagenes": [
-          "/images/4032ab57-e17a-40c3-9d0d-4948993f8095.webp",
-          "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80"
+          "/images/4032ab57-e17a-40c3-9d0d-4948993f8095.webp"
         ],
         "problema": "El salón dependía de recomendaciones y no tenía presencia digital.",
         "nombre": "Hacienda San Andrés",
@@ -93,25 +92,24 @@
         "objetivo": "Llenar el calendario de eventos con reservas directas."
       },
       {
-        "resumen": "Clonación de llaves y mecatrónica automotriz en CDMX.",
+        "resumen": "Taller y Refaccionaría en CDMX.",
         "imagenes": [
-          "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80"
+          "/images/4561ba10-c87e-45a2-93a8-36c781df144f.png"
         ],
         "problema": "Un servicio especializado sin forma clara de contactar.",
-        "nombre": "KeyLab",
+        "nombre": "viaducto Transmisiones Online",
         "solucion": "Landing directa con servicios, cobertura y botón de WhatsApp.",
         "tecnologias": [
-          "Landing de conversión",
+          "Inventario",
           "CMS editable",
           "SEO local"
         ],
         "resultado": "Contacto inmediato y más citas agendadas.",
-        "url_externa": "",
+        "url_externa": "https://viaductotransmisionesonline.com/",
         "industria": "Automotriz",
-        "categoria": "Automotriz",
-        "id": "keylab-automotriz",
-        "objetivo": "Captar clientes que buscan servicio de llaves en su zona."
+        "categoria": "Ecommerce",
+        "id": "viaducto-transmisiones-online",
+        "objetivo": "Captar clientes que buscan servicio de transmision en su zona."
       },
       {
         "resumen": "Un hotel boutique con una presencia digital de lujo.",
