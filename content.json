@@ -112,13 +112,12 @@
         "objetivo": "Captar clientes que buscan servicio de transmision en su zona."
       },
       {
-        "resumen": "Un hotel boutique con una presencia digital de lujo.",
+        "resumen": "Un empresa boutique con una presencia digital de lujo.",
         "imagenes": [
-          "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
-          "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80"
+          "/images/caed8e72-1d05-4701-b06c-11954c8d056a.png"
         ],
-        "problema": "La web anterior no reflejaba el nivel del hotel.",
-        "nombre": "Hotel Vista Real",
+        "problema": "La web anterior no reflejaba el nivel de la empresa.",
+        "nombre": "Luxor Events & Media",
         "solucion": "Un sitio inmersivo con fotografía a pantalla completa.",
         "tecnologias": [
           "Diseño a medida",
@@ -126,10 +125,10 @@
           "Reservas"
         ],
         "resultado": "Más reservas directas y una marca percibida como premium.",
-        "url_externa": "",
-        "industria": "Hospitalidad",
-        "categoria": "Hoteles",
-        "id": "hotel-premium",
+        "url_externa": "https://luxoreventsmedia.com/",
+        "industria": "Fotografia",
+        "categoria": "Corporativo",
+        "id": "luxor-eventos",
         "objetivo": "Transmitir experiencia y aumentar reservas directas."
       }
     ]
